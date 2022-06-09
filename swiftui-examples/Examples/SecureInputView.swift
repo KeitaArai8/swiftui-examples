@@ -1,6 +1,26 @@
 import SwiftUI
 
 struct SecureInputView: View {
+    @State var password = ""
+        
+        var body: some View {
+            VStack(alignment: .leading) {
+                Text("Password")
+                    .font(.headline)
+                    .bold()
+                
+                _SecureInputView("Enter Password", text: $password)
+                    .font(.caption)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
+                    .cornerRadius(5)
+                   
+            }.padding(.horizontal)
+        }
+}
+
+struct _SecureInputView: View {
     
     @Binding private var text: String
     @State private var isSecured: Bool = true
@@ -28,5 +48,11 @@ struct SecureInputView: View {
                     .accentColor(.gray)
             }.padding(10)
         }
+    }
+}
+
+struct SecureInputView_Previews: PreviewProvider {
+    static var previews: some View {
+        SecureInputView()
     }
 }

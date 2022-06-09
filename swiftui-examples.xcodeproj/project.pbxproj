@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F17D081284E43D800307AC7 /* SecureInputViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17D080284E43D800307AC7 /* SecureInputViewApp.swift */; };
-		6F17D083284E43D800307AC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17D082284E43D800307AC7 /* ContentView.swift */; };
-		6F17D085284E43DA00307AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F17D084284E43DA00307AC7 /* Assets.xcassets */; };
-		6F17D088284E43DA00307AC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F17D087284E43DA00307AC7 /* Preview Assets.xcassets */; };
-		6F17D08F284E43FA00307AC7 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17D08E284E43FA00307AC7 /* SecureInputView.swift */; };
+		6F0D58D8285228270087DFDD /* swiftui_examplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58D7285228270087DFDD /* swiftui_examplesApp.swift */; };
+		6F0D58DA285228270087DFDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58D9285228270087DFDD /* ContentView.swift */; };
+		6F0D58DC285228280087DFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D58DB285228280087DFDD /* Assets.xcassets */; };
+		6F0D58DF285228280087DFDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D58DE285228280087DFDD /* Preview Assets.xcassets */; };
+		6F0D58E6285228530087DFDD /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58E5285228530087DFDD /* TagListView.swift */; };
+		6F0D58E8285228830087DFDD /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58E7285228830087DFDD /* FlexibleView.swift */; };
+		6F0D58EA285228AF0087DFDD /* DemoScrollViewOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58E9285228AF0087DFDD /* DemoScrollViewOffsetView.swift */; };
+		6F0D58EC285228D90087DFDD /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58EB285228D90087DFDD /* SecureInputView.swift */; };
+		6F0D58EE285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58ED285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F17D07D284E43D800307AC7 /* SecureInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F17D080284E43D800307AC7 /* SecureInputViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputViewApp.swift; sourceTree = "<group>"; };
-		6F17D082284E43D800307AC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6F17D084284E43DA00307AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6F17D087284E43DA00307AC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6F17D08E284E43FA00307AC7 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
+		6F0D58D4285228270087DFDD /* swiftui-examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0D58D7285228270087DFDD /* swiftui_examplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_examplesApp.swift; sourceTree = "<group>"; };
+		6F0D58D9285228270087DFDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F0D58DB285228280087DFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F0D58DE285228280087DFDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F0D58E5285228530087DFDD /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		6F0D58E7285228830087DFDD /* FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
+		6F0D58E9285228AF0087DFDD /* DemoScrollViewOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScrollViewOffsetView.swift; sourceTree = "<group>"; };
+		6F0D58EB285228D90087DFDD /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
+		6F0D58ED285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardToolbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F17D07A284E43D800307AC7 /* Frameworks */ = {
+		6F0D58D1285228270087DFDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,78 +42,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F17D074284E43D800307AC7 = {
+		6F0D58CB285228270087DFDD = {
 			isa = PBXGroup;
 			children = (
-				6F17D07F284E43D800307AC7 /* SecureInputView */,
-				6F17D07E284E43D800307AC7 /* Products */,
+				6F0D58D6285228270087DFDD /* swiftui-examples */,
+				6F0D58D5285228270087DFDD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6F17D07E284E43D800307AC7 /* Products */ = {
+		6F0D58D5285228270087DFDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F17D07D284E43D800307AC7 /* SecureInputView.app */,
+				6F0D58D4285228270087DFDD /* swiftui-examples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F17D07F284E43D800307AC7 /* SecureInputView */ = {
+		6F0D58D6285228270087DFDD /* swiftui-examples */ = {
 			isa = PBXGroup;
 			children = (
-				6F17D080284E43D800307AC7 /* SecureInputViewApp.swift */,
-				6F17D082284E43D800307AC7 /* ContentView.swift */,
-				6F17D084284E43DA00307AC7 /* Assets.xcassets */,
-				6F17D086284E43DA00307AC7 /* Preview Content */,
-				6F17D08E284E43FA00307AC7 /* SecureInputView.swift */,
+				6F0D58EF28522A110087DFDD /* Examples */,
+				6F0D58D7285228270087DFDD /* swiftui_examplesApp.swift */,
+				6F0D58D9285228270087DFDD /* ContentView.swift */,
+				6F0D58DB285228280087DFDD /* Assets.xcassets */,
+				6F0D58DD285228280087DFDD /* Preview Content */,
 			);
-			path = SecureInputView;
+			path = "swiftui-examples";
 			sourceTree = "<group>";
 		};
-		6F17D086284E43DA00307AC7 /* Preview Content */ = {
+		6F0D58DD285228280087DFDD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6F17D087284E43DA00307AC7 /* Preview Assets.xcassets */,
+				6F0D58DE285228280087DFDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F0D58EF28522A110087DFDD /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D58E5285228530087DFDD /* TagListView.swift */,
+				6F0D58E7285228830087DFDD /* FlexibleView.swift */,
+				6F0D58E9285228AF0087DFDD /* DemoScrollViewOffsetView.swift */,
+				6F0D58EB285228D90087DFDD /* SecureInputView.swift */,
+				6F0D58ED285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F17D07C284E43D800307AC7 /* SecureInputView */ = {
+		6F0D58D3285228270087DFDD /* swiftui-examples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F17D08B284E43DA00307AC7 /* Build configuration list for PBXNativeTarget "SecureInputView" */;
+			buildConfigurationList = 6F0D58E2285228280087DFDD /* Build configuration list for PBXNativeTarget "swiftui-examples" */;
 			buildPhases = (
-				6F17D079284E43D800307AC7 /* Sources */,
-				6F17D07A284E43D800307AC7 /* Frameworks */,
-				6F17D07B284E43D800307AC7 /* Resources */,
+				6F0D58D0285228270087DFDD /* Sources */,
+				6F0D58D1285228270087DFDD /* Frameworks */,
+				6F0D58D2285228270087DFDD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SecureInputView;
-			productName = SecureInputView;
-			productReference = 6F17D07D284E43D800307AC7 /* SecureInputView.app */;
+			name = "swiftui-examples";
+			productName = "swiftui-examples";
+			productReference = 6F0D58D4285228270087DFDD /* swiftui-examples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6F17D075284E43D800307AC7 /* Project object */ = {
+		6F0D58CC285228270087DFDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					6F17D07C284E43D800307AC7 = {
+					6F0D58D3285228270087DFDD = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 6F17D078284E43D800307AC7 /* Build configuration list for PBXProject "SecureInputView" */;
+			buildConfigurationList = 6F0D58CF285228270087DFDD /* Build configuration list for PBXProject "swiftui-examples" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +133,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 6F17D074284E43D800307AC7;
-			productRefGroup = 6F17D07E284E43D800307AC7 /* Products */;
+			mainGroup = 6F0D58CB285228270087DFDD;
+			productRefGroup = 6F0D58D5285228270087DFDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F17D07C284E43D800307AC7 /* SecureInputView */,
+				6F0D58D3285228270087DFDD /* swiftui-examples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F17D07B284E43D800307AC7 /* Resources */ = {
+		6F0D58D2285228270087DFDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F17D088284E43DA00307AC7 /* Preview Assets.xcassets in Resources */,
-				6F17D085284E43DA00307AC7 /* Assets.xcassets in Resources */,
+				6F0D58DF285228280087DFDD /* Preview Assets.xcassets in Resources */,
+				6F0D58DC285228280087DFDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F17D079284E43D800307AC7 /* Sources */ = {
+		6F0D58D0285228270087DFDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F17D08F284E43FA00307AC7 /* SecureInputView.swift in Sources */,
-				6F17D083284E43D800307AC7 /* ContentView.swift in Sources */,
-				6F17D081284E43D800307AC7 /* SecureInputViewApp.swift in Sources */,
+				6F0D58EC285228D90087DFDD /* SecureInputView.swift in Sources */,
+				6F0D58DA285228270087DFDD /* ContentView.swift in Sources */,
+				6F0D58EA285228AF0087DFDD /* DemoScrollViewOffsetView.swift in Sources */,
+				6F0D58E6285228530087DFDD /* TagListView.swift in Sources */,
+				6F0D58D8285228270087DFDD /* swiftui_examplesApp.swift in Sources */,
+				6F0D58E8285228830087DFDD /* FlexibleView.swift in Sources */,
+				6F0D58EE285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6F17D089284E43DA00307AC7 /* Debug */ = {
+		6F0D58E0285228280087DFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		6F17D08A284E43DA00307AC7 /* Release */ = {
+		6F0D58E1285228280087DFDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +287,14 @@
 			};
 			name = Release;
 		};
-		6F17D08C284E43DA00307AC7 /* Debug */ = {
+		6F0D58E3285228280087DFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SecureInputView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-examples/Preview Content\"";
 				DEVELOPMENT_TEAM = 938TARF4XK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.ynwano.14.SecureInputView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.ynwano.14.swiftui-examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +316,14 @@
 			};
 			name = Debug;
 		};
-		6F17D08D284E43DA00307AC7 /* Release */ = {
+		6F0D58E4285228280087DFDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SecureInputView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-examples/Preview Content\"";
 				DEVELOPMENT_TEAM = 938TARF4XK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.ynwano.14.SecureInputView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.ynwano.14.swiftui-examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +348,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F17D078284E43D800307AC7 /* Build configuration list for PBXProject "SecureInputView" */ = {
+		6F0D58CF285228270087DFDD /* Build configuration list for PBXProject "swiftui-examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F17D089284E43DA00307AC7 /* Debug */,
-				6F17D08A284E43DA00307AC7 /* Release */,
+				6F0D58E0285228280087DFDD /* Debug */,
+				6F0D58E1285228280087DFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F17D08B284E43DA00307AC7 /* Build configuration list for PBXNativeTarget "SecureInputView" */ = {
+		6F0D58E2285228280087DFDD /* Build configuration list for PBXNativeTarget "swiftui-examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F17D08C284E43DA00307AC7 /* Debug */,
-				6F17D08D284E43DA00307AC7 /* Release */,
+				6F0D58E3285228280087DFDD /* Debug */,
+				6F0D58E4285228280087DFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6F17D075284E43D800307AC7 /* Project object */;
+	rootObject = 6F0D58CC285228270087DFDD /* Project object */;
 }
