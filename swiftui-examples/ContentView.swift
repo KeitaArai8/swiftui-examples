@@ -9,6 +9,7 @@ struct ContentView: View {
                     NavigationLink("DemoScrollViewOffsetView",destination: DemoScrollViewOffsetView())
                     NavigationLink("SecureInputView",destination: SecureInputView())
                     NavigationLink("TextFieldKeyboardToolbarView",destination: TextFieldKeyboardToolbarView())
+                    NavigationLink("AutoLiftKeyboardView",destination: AutoLiftKeyboardView())
                 }
             }
           .navigationBarTitle("SwiftUI Examples")
