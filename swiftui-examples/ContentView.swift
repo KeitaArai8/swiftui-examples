@@ -11,6 +11,7 @@ struct ContentView: View {
                     NavigationLink("TextFieldKeyboardToolbarView",destination: TextFieldKeyboardToolbarView())
                     NavigationLink("AutoLiftKeyboardView",destination: AutoLiftKeyboardView())
                     NavigationLink("CustomTabView",destination: CustomTabView())
+                    NavigationLink("FixedTextView",destination: FixedTextView())
                 }
             }
           .navigationBarTitle("SwiftUI Examples")

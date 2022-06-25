@@ -17,6 +17,7 @@
 		6F0D58EC285228D90087DFDD /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58EB285228D90087DFDD /* SecureInputView.swift */; };
 		6F0D58EE285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D58ED285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift */; };
 		6F147C192860AB6A001E67A6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F147C182860AB6A001E67A6 /* CustomTabView.swift */; };
+		6F7F9BA92866C1A000425C34 /* FixedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F9BA82866C1A000425C34 /* FixedTextView.swift */; };
 		6FAB6F9728544DDD00E5203A /* AutoLiftKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB6F9628544DDD00E5203A /* AutoLiftKeyboardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		6F0D58EB285228D90087DFDD /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
 		6F0D58ED285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardToolbarView.swift; sourceTree = "<group>"; };
 		6F147C182860AB6A001E67A6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		6F7F9BA82866C1A000425C34 /* FixedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedTextView.swift; sourceTree = "<group>"; };
 		6FAB6F9628544DDD00E5203A /* AutoLiftKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLiftKeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				6F0D58ED285228FD0087DFDD /* TextFieldKeyboardToolbarView.swift */,
 				6FAB6F9628544DDD00E5203A /* AutoLiftKeyboardView.swift */,
 				6F147C182860AB6A001E67A6 /* CustomTabView.swift */,
+				6F7F9BA82866C1A000425C34 /* FixedTextView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				6FAB6F9728544DDD00E5203A /* AutoLiftKeyboardView.swift in Sources */,
 				6F0D58DA285228270087DFDD /* ContentView.swift in Sources */,
 				6F0D58EA285228AF0087DFDD /* DemoScrollViewOffsetView.swift in Sources */,
+				6F7F9BA92866C1A000425C34 /* FixedTextView.swift in Sources */,
 				6F0D58E6285228530087DFDD /* TagListView.swift in Sources */,
 				6F0D58D8285228270087DFDD /* swiftui_examplesApp.swift in Sources */,
 				6F147C192860AB6A001E67A6 /* CustomTabView.swift in Sources */,
