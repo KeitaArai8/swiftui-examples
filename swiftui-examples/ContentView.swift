@@ -12,6 +12,8 @@ struct ContentView: View {
                     NavigationLink("AutoLiftKeyboardView",destination: AutoLiftKeyboardView())
                     NavigationLink("CustomTabView",destination: CustomTabView())
                     NavigationLink("FixedTextView",destination: FixedTextView())
+                    NavigationLink("DynamicallyHidingView",destination: DynamicallyHidingView())
+                    
                 }
             }
           .navigationBarTitle("SwiftUI Examples")
