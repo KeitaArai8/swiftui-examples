@@ -13,6 +13,7 @@ struct ContentView: View {
                     NavigationLink("CustomTabView",destination: CustomTabView())
                     NavigationLink("FixedTextView",destination: FixedTextView())
                     NavigationLink("DynamicallyHidingView",destination: DynamicallyHidingView())
+                    NavigationLink("CustomScrollTabView",destination: CustomScrollTabView())
                     
                 }
             }
