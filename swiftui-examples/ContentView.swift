@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isActive : Bool = false
+    
     var body: some View {
         NavigationView {
             Form {
@@ -14,11 +16,13 @@ struct ContentView: View {
                     NavigationLink("FixedTextView",destination: FixedTextView())
                     NavigationLink("DynamicallyHidingView",destination: DynamicallyHidingView())
                     NavigationLink("CustomScrollTabView",destination: CustomScrollTabView())
-                    
+                    NavigationLink("PopToRootNavigationView",destination: PopToRootNavigationView(), isActive: self.$isActive)
                 }
             }
           .navigationBarTitle("SwiftUI Examples")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
+        .environment(\.rootPresentationMode, self.$isActive)
     }
 }
 
