@@ -20,6 +20,7 @@ struct ContentView: View {
                 }
                 Section(header: Text("Examples2")) {
                     NavigationLink("RefreshableScrollView",destination: RefreshableScrollView())
+                    NavigationLink("CustomBadgeView",destination: CustomBadgeView())
                 }
             }
           .navigationBarTitle("SwiftUI Examples")
