@@ -20,6 +20,7 @@
 		6F6332DF28A6561C00C5D868 /* DynamicallyHidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6332DE28A6561C00C5D868 /* DynamicallyHidingView.swift */; };
 		6F68801628D7072200C96286 /* PopToRootNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68801528D7072200C96286 /* PopToRootNavigationView.swift */; };
 		6F7A5B0328D6B8AE0065916A /* CustomScrollTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7A5B0228D6B8AE0065916A /* CustomScrollTabView.swift */; };
+		6F7F8794292B6748004B0D6D /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8793292B6748004B0D6D /* RefreshableScrollView.swift */; };
 		6F7F9BA92866C1A000425C34 /* FixedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F9BA82866C1A000425C34 /* FixedTextView.swift */; };
 		6FAB6F9728544DDD00E5203A /* AutoLiftKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB6F9628544DDD00E5203A /* AutoLiftKeyboardView.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		6F6332DE28A6561C00C5D868 /* DynamicallyHidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicallyHidingView.swift; sourceTree = "<group>"; };
 		6F68801528D7072200C96286 /* PopToRootNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopToRootNavigationView.swift; sourceTree = "<group>"; };
 		6F7A5B0228D6B8AE0065916A /* CustomScrollTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollTabView.swift; sourceTree = "<group>"; };
+		6F7F8793292B6748004B0D6D /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
 		6F7F9BA82866C1A000425C34 /* FixedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedTextView.swift; sourceTree = "<group>"; };
 		6FAB6F9628544DDD00E5203A /* AutoLiftKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLiftKeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 				6F6332DE28A6561C00C5D868 /* DynamicallyHidingView.swift */,
 				6F7A5B0228D6B8AE0065916A /* CustomScrollTabView.swift */,
 				6F68801528D7072200C96286 /* PopToRootNavigationView.swift */,
+				6F7F8793292B6748004B0D6D /* RefreshableScrollView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				6F6332DF28A6561C00C5D868 /* DynamicallyHidingView.swift in Sources */,
 				6F0D58DA285228270087DFDD /* ContentView.swift in Sources */,
 				6F68801628D7072200C96286 /* PopToRootNavigationView.swift in Sources */,
+				6F7F8794292B6748004B0D6D /* RefreshableScrollView.swift in Sources */,
 				6F7A5B0328D6B8AE0065916A /* CustomScrollTabView.swift in Sources */,
 				6F0D58EA285228AF0087DFDD /* DemoScrollViewOffsetView.swift in Sources */,
 				6F7F9BA92866C1A000425C34 /* FixedTextView.swift in Sources */,

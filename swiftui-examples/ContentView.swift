@@ -18,6 +18,9 @@ struct ContentView: View {
                     NavigationLink("CustomScrollTabView",destination: CustomScrollTabView())
                     NavigationLink("PopToRootNavigationView",destination: PopToRootNavigationView(), isActive: self.$isActive)
                 }
+                Section(header: Text("Examples2")) {
+                    NavigationLink("RefreshableScrollView",destination: RefreshableScrollView())
+                }
             }
           .navigationBarTitle("SwiftUI Examples")
         }
